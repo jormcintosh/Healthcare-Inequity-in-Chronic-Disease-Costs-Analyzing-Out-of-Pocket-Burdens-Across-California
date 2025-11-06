@@ -1,1 +1,132 @@
-# Healthcare-Inequity-in-Chronic-Disease-Costs-Analyzing-Out-of-Pocket-Burdens-Across-California
+# Healthcare Inequity in Chronic Disease Costs: Analyzing Out-of-Pocket Burdens Across California
+
+## 📘 Project Overview
+This project analyzes California’s 2022 **Healthcare Payments Data (HPD)** to uncover regional and condition-based disparities in **out-of-pocket (OOP)** medical costs for individuals for those with chronic conditions.
+
+Using **SQL** to extract, aggregate, and interpret data, the project highlights **key performance indicators (KPIs)** that measure healthcare affordability and cost inequity across California counties.
+
+---
+
+## 🎯 Objectives
+- Measure how OOP costs differ between chronic and non-chronic patients.
+- Identify counties with the **highest financial burden** and **widest cost gaps**.
+- Highlight which chronic conditions contribute most to patient expenses.
+- Provide **data-driven recommendations** for policy and cost-relief strategies.
+
+---
+
+## 💡 Business Context
+High OOP costs can limit access to essential care and worsen health inequities.  
+This analysis helps:
+- **Policy makers** design targeted affordability programs.  
+- **Healthcare systems** understand where chronic care management can improve.  
+- **Insurers** evaluate fairness and affordability across patient groups.
+
+---
+
+## 📊 Key Performance Indicators (KPIs)
+
+| KPI | Description | Purpose |
+|------|--------------|----------|
+| **Median Out-of-Pocket Cost per Member** | Typical cost per patient per county. | Identifies areas with the highest financial pressure. |
+| **Cost Inequality Index** | Difference between the 75th and 25th percentile OOP costs. | Measures cost spread and affordability gaps. |
+| **Median Claim Count** | Median number of healthcare claims per member. | Reflects healthcare utilization and access. |
+| **Chronic Cost Premium** | Ratio of OOP costs for chronic vs. non-chronic populations. | Quantifies how much more chronic care patients pay. |
+| **Top 5 Costly Chronic Conditions** | Conditions with highest average OOP costs and patient counts. | Pinpoints high-cost, high-impact conditions. |
+
+---
+
+## 🧠 Data Source
+**Dataset:** [California CHHS – HPD Medical Out-of-Pocket Costs and Chronic Conditions (2022)](https://data.chhs.ca.gov/dataset/healthcare-payments-data-hpd-medical-out-of-pocket-costs-and-chronic-conditions/resource/e7794d13-4134-4230-b2d5-8698d438fd34)  
+**File Used:** `hpd_oop_chronic_2022_masked.xlsx`  
+**Columns:** County, Product Type, Chronic Flag, Chronic Condition, Median OOP Cost, 25th/75th Percentile OOP, Median Claim Count, etc.
+
+---
+
+## 🧮 Tools & Skills
+- **SQL (MySQL / PostgreSQL):** Data cleaning, aggregation, and KPI computation.  
+- **Tableau or Power BI:** Data visualization and storytelling.  
+- **Data Storytelling:** Translating metrics into insights for decision-making.  
+- **Analytical Thinking:** Comparing populations and assessing equity through KPIs.
+
+---
+
+## 📈 Analysis Process
+
+1. **Data Preparation**  
+   - Imported dataset into SQL and verified data quality.  
+   - Removed statewide totals and null values for accurate county-level analysis.  
+
+2. **Descriptive Analysis**  
+   - Calculated median out-of-pocket costs by county and chronic condition.  
+   - Measured distribution using percentile data to show cost variation.  
+
+3. **Chronic vs Non-Chronic Comparison**  
+   - Filtered patient populations using the chronic flag.  
+   - Calculated average OOP costs for each group.  
+   - Designed a KPI: **Chronic Cost Premium** — showing how many times more chronic patients pay.  
+
+4. **Inequity Measurement**  
+   - Computed **Cost Inequality Index** (difference between 75th and 25th percentile OOP costs).  
+   - Ranked counties with the highest inequality levels.  
+
+5. **Condition-Level Insights**  
+   - Identified top 5 chronic conditions by average OOP cost and total patient count.  
+   - Combined `AVG` (to measure cost) with `SUM` (to measure number of patients).  
+
+6. **Visualization & Reporting**  
+   - Created a Tableau dashboard showing:
+     - County-level OOP costs (map)
+     - Cost inequality index (bar chart)
+     - Chronic vs non-chronic comparison (side-by-side bars)
+     - KPI cards for statewide averages
+     - Table of top 5 costly chronic conditions
+
+---
+
+## 💬 Key Insights
+- Chronic care patients pay **2–3× higher** median OOP costs than non-chronic patients.  
+- Certain Northern California counties show both **higher median costs** and **greater inequality**, signaling affordability issues.  
+- **Diabetes, heart disease, and kidney disorders** are among the costliest chronic conditions statewide.  
+
+---
+
+## 🧾 Recommendations
+- Prioritize financial support or subsidy programs in high-burden counties.  
+- Encourage insurers to reassess coverage for chronic care services.  
+- Expand preventative health programs to reduce long-term OOP spending.  
+
+---
+
+## 📄 Project Summary (For Resume or Portfolio)
+> **Healthcare Inequity in Chronic Disease Costs (SQL Project)**  
+> Analyzed California’s 2022 Healthcare Payments Data using SQL to uncover disparities in out-of-pocket costs among chronic disease patients. Built KPI-driven insights and Tableau dashboards highlighting regional inequities and cost patterns. Delivered recommendations for affordability and access improvements.  
+> **Tools:** SQL, Tableau | **KPIs:** Median OOP Cost, Cost Inequality Index, Chronic Cost Premium
+
+---
+
+## 🧩 About the “Chronic Cost Premium” Query
+To calculate how much more chronic care patients pay than non-chronic patients:
+- Two temporary tables (using CTEs) were created — one filtered for chronic patients and another for non-chronic.  
+- Each summarized average median OOP cost by county.  
+- Both results were joined on the county name, and a new column calculated the ratio of chronic to non-chronic averages.  
+- This ratio became the **Chronic Cost Premium**, a KPI expressing how much higher the OOP cost is for chronic patients.
+
+This approach combines filtering, grouping, joins, and KPI design — illustrating both SQL fluency and analytical reasoning.
+
+---
+
+## 🧠 Learning Takeaways
+- Reinforced use of **CTEs** and **aggregate functions** to structure modular SQL queries.  
+- Practiced using **filters (WHERE)** and **aggregations (AVG, SUM)** for targeted metrics.  
+- Applied **data storytelling** to connect SQL output with real-world health equity insights.
+
+---
+
+## Repository Contents
+- `hpd_oop_chronic_2022_masked.xlsx` – Raw dataset (California CHHS).  
+- `hpd_chronic_analysis.sql` – SQL script with KPI queries.  
+- `dashboard.twbx` – Tableau dashboard (optional).  
+- `README.md` – Project documentation (this file).
+
+---
