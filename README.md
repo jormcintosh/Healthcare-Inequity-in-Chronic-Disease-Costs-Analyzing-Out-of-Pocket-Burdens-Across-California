@@ -45,7 +45,7 @@ This analysis helps:
 
 ## 🧮 Tools & Skills
 - **SQL (MySQL / PostgreSQL):** Data cleaning, aggregation, and KPI computation.  
-- **Tableau or Power BI:** Data visualization and storytelling.  
+- **Power BI:** Data visualization and storytelling.  
 - **Data Storytelling:** Translating metrics into insights for decision-making.  
 - **Analytical Thinking:** Comparing populations and assessing equity through KPIs.
 
@@ -101,7 +101,7 @@ This analysis helps:
 ## 📄 Project Summary (For Resume or Portfolio)
 > **Healthcare Inequity in Chronic Disease Costs (SQL Project)**  
 > Analyzed California’s 2022 Healthcare Payments Data using SQL to uncover disparities in out-of-pocket costs among chronic disease patients. Built KPI-driven insights and Tableau dashboards highlighting regional inequities and cost patterns. Delivered recommendations for affordability and access improvements.  
-> **Tools:** SQL, Tableau | **KPIs:** Median OOP Cost, Cost Inequality Index, Chronic Cost Premium
+> **Tools:** SQL, Power BI | **KPIs:** Median OOP Cost, Cost Inequality Index, Chronic Cost Premium
 
 ---
 
@@ -112,21 +112,12 @@ To calculate how much more chronic care patients pay than non-chronic patients:
 - Both results were joined on the county name, and a new column calculated the ratio of chronic to non-chronic averages.  
 - This ratio became the **Chronic Cost Premium**, a KPI expressing how much higher the OOP cost is for chronic patients.
 
-This approach combines filtering, grouping, joins, and KPI design — illustrating both SQL fluency and analytical reasoning.
-
----
-
-## 🧠 Learning Takeaways
-- Reinforced use of **CTEs** and **aggregate functions** to structure modular SQL queries.  
-- Practiced using **filters (WHERE)** and **aggregations (AVG, SUM)** for targeted metrics.  
-- Applied **data storytelling** to connect SQL output with real-world health equity insights.
-
 ---
 
 ## Repository Contents
 - `hpd_oop_chronic_2022_masked.xlsx` – Raw dataset (California CHHS).  
 - `hpd_chronic_analysis.sql` – SQL script with KPI queries.  
-- `dashboard.twbx` – Tableau dashboard (optional).  
+- `dashboard.twbx` – Power BI dashboard.  
 - `README.md` – Project documentation (this file).
 
 ---
