@@ -117,7 +117,7 @@ To calculate how much more chronic care patients pay than non-chronic patients:
 ## Repository Contents
 - `hpd_oop_chronic_2022_masked.xlsx` – Raw dataset (California CHHS).  
 - `hpd_chronic_analysis.sql` – SQL script with KPI queries.  
-- `dashboard.twbx` – Power BI dashboard.  
+- `hdp_masked_2022 (viz).pbix` – Power BI dashboard.  
 - `README.md` – Project documentation (this file).
 
 ---
