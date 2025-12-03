@@ -98,13 +98,6 @@ This analysis helps:
 
 ---
 
-## 📄 Project Summary (For Resume or Portfolio)
-> **Healthcare Inequity in Chronic Disease Costs (SQL Project)**  
-> Analyzed California’s 2022 Healthcare Payments Data using SQL to uncover disparities in out-of-pocket costs among chronic disease patients. Built KPI-driven insights and Tableau dashboards highlighting regional inequities and cost patterns. Delivered recommendations for affordability and access improvements.  
-> **Tools:** SQL, Power BI | **KPIs:** Median OOP Cost, Cost Inequality Index, Chronic Cost Premium
-
----
-
 ## 🧩 About the “Chronic Cost Premium” Query
 To calculate how much more chronic care patients pay than non-chronic patients:
 - Two temporary tables (using CTEs) were created — one filtered for chronic patients and another for non-chronic.  
