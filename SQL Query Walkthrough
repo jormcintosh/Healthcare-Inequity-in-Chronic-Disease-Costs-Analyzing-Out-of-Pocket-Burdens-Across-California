@@ -1,0 +1,78 @@
+## SQL Query Walkthrough
+
+This section explains the logic behind the key SQL queries used in the project.  
+Each query supports one or more KPIs and helps answer the project’s business questions.
+
+---
+
+### 1. **Median Out-of-Pocket Cost by County**
+The query groups the dataset by county and calculates the average of the median out-of-pocket cost for each region.  
+Because each county contains multiple records (for different conditions or product types), this step summarizes the typical financial burden per patient in each county.
+
+**Insight Supported:** Identifying the highest-burden regions.
+
+---
+
+### 2. **Cost Inequality Index**
+This query measures the difference between the 75th and 25th percentile out-of-pocket cost for each county.  
+Subtracting these values shows how widely costs vary within each population group.
+
+A large gap indicates that patients in the same county face very different financial realities, which is a sign of cost inequity.
+
+**Insight Supported:** Understanding affordability gaps and cost variation.
+
+---
+
+### 3. **Chronic vs Non-Chronic Cost Comparison**
+This query separates the dataset into two groups based on the chronic flag:  
+- Patients with chronic conditions  
+- Patients without chronic conditions  
+
+It then calculates the average median OOP cost and average number of claims for each group.
+
+This helps quantify how much more financially burdensome chronic care is compared to non-chronic care.
+
+**Insight Supported:** Establishing the baseline cost difference between populations.
+
+---
+
+### 4. **Chronic Cost Premium (Most Important KPI)**
+This step uses two temporary summarized tables:
+
+- One table calculates the average OOP cost for chronic patients in each county.  
+- The other calculates the average OOP cost for non-chronic patients in each county.  
+
+These two summary tables are then joined using the county name.  
+A new calculated field divides the chronic average by the non-chronic average to produce the **Chronic Cost Premium**.
+
+This tells us how many times more chronic patients pay out of pocket compared to non-chronic patients in the same region.
+
+**Insight Supported:** Ranking counties by the severity of chronic-care cost disparities.
+
+---
+
+### 5. **Top 5 Most Costly Chronic Conditions**
+This query filters the dataset to include only rows where patients have a chronic condition.  
+Then it:
+
+- Groups the data by chronic condition  
+- Calculates the average median OOP cost for each condition (severity)  
+- Sums the number of patients for each condition (scale)
+
+Both metrics together highlight which chronic conditions represent the greatest financial pressure and affect the most people.
+
+**Insight Supported:** Identifying the highest-priority conditions for cost-intervention programs.
+
+---
+
+### 6. **Statewide Summary KPIs**
+Additional queries calculate statewide averages for:
+- Median OOP cost  
+- Median claim counts  
+- Cost inequality  
+- Chronic vs non-chronic gaps  
+
+These KPIs form the basis of the dashboard’s top-level metric cards and summary insights.
+
+**Insight Supported:** Providing statewide benchmarks to compare individual counties against.
+--
