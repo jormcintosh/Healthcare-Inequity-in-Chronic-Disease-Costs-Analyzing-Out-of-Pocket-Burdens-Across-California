@@ -1,7 +1,7 @@
 # Healthcare Inequity in Chronic Disease Costs: Analyzing Out-of-Pocket Burdens Across California
 
 ## 📘 Project Overview
-This project analyzes California’s 2022 **Healthcare Payments Data (HPD)** to uncover regional and condition-based disparities in **out-of-pocket (OOP)** medical costs for individuals for those with chronic conditions.
+This project analyzes California’s 2022 **Healthcare Payments Data (HPD)** to uncover regional and condition-based disparities in **out-of-pocket (OOP)** medical costs for individuals with chronic conditions.
 
 Using **SQL** to extract, aggregate, and interpret data, the project highlights **key performance indicators (KPIs)** that measure healthcare affordability and cost inequity across California counties.
 
@@ -110,7 +110,7 @@ To calculate how much more chronic care patients pay than non-chronic patients:
 ## Repository Contents
 - `hpd_oop_chronic_2022_masked.xlsx` – Raw dataset (California CHHS).  
 - `hpd_chronic_analysis.sql` – SQL script with KPI queries.  
-- `hdp_masked_2022 (viz).pbix` – Power BI dashboard.  
+- `hdp_masked_2022 (viz)(1).pbix` – Power BI dashboard.  
 - `README.md` – Project documentation (this file).
 
 ---
