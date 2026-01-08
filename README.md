@@ -100,7 +100,7 @@ This analysis helps:
 
 ## 🧩 About the “Chronic Cost Premium” Query
 To calculate how much more chronic care patients pay than non-chronic patients:
-- Two temporary tables (using CTEs) were created — one filtered for chronic patients and another for non-chronic.  
+- Two temporary tables (using CTEs) were created -- one filtered for chronic patients and another for non-chronic.  
 - Each summarized average median OOP cost by county.  
 - Both results were joined on the county name, and a new column calculated the ratio of chronic to non-chronic averages.  
 - This ratio became the **Chronic Cost Premium**, a KPI expressing how much higher the OOP cost is for chronic patients.
