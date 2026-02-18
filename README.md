@@ -13,6 +13,9 @@ This project analyzes statewide healthcare payment data using SQL to identify co
 - Highlight which chronic conditions contribute most to patient expenses.
 - Provide **data-driven recommendations** for policy and cost-relief strategies.
 
+  
+## Key Findings
+
 ---
 
 ## 💡 Business Context
