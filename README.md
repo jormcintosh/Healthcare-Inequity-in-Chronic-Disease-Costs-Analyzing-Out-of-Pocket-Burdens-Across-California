@@ -18,6 +18,15 @@ This project analyzes statewide healthcare payment data using SQL to identify co
 
 ---
 
+## Power BI Visuals
+
+Average Cost Inequality by County
+<img width="1121" height="562" alt="image" src="https://github.com/user-attachments/assets/ed822b72-7d54-4888-aae1-05682d087057" />
+
+Average Patient Out of Pocket Costs by County
+<img width="1242" height="730" alt="image" src="https://github.com/user-attachments/assets/a491e43c-4ad9-4100-baca-89029eb7ed88" />
+
+
 ## 💡 Business Context
 High OOP costs can limit access to essential care and worsen health inequities.  
 This analysis helps:
