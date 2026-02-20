@@ -79,7 +79,7 @@ This analysis helps:
    - Combined `AVG` (to measure cost) with `SUM` (to measure number of patients).  
 
 6. **Visualization & Reporting**  
-   - Created a Tableau dashboard showing:
+   - Created a BI dashboard showing:
      - County-level OOP costs (map)
      - Cost inequality index (bar chart)
      - Chronic vs non-chronic comparison (side-by-side bars)
