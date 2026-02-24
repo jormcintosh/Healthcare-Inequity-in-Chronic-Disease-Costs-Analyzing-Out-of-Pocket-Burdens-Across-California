@@ -10,12 +10,14 @@ This project analyzes statewide healthcare payment data using SQL to identify co
 ## 🎯 Objectives
 - Measure how OOP costs differ between chronic and non-chronic patients.
 - Identify counties with the **highest financial burden** and **widest cost gaps**.
-- Highlight which chronic conditions contribute most to patient expenses.
+- Find out how patients typically par per encounter (utilized condition burgen ratio).
 - Provide **data-driven recommendations** for policy and cost-relief strategies.
 
   
 ## Key Findings
-
+- Patients in Alpine, CA pay 221% higher out-of-pocket costs relative to the state average.
+- 
+- Members with one or more chronic conditions incur 86% higher median out-of-pocket-cost compared to members without chronic conditions.
 ---
 
 ## Power BI Visuals
