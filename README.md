@@ -122,6 +122,13 @@ To calculate how much more chronic care patients pay than non-chronic patients:
 - Both results were joined on the county name, and a new column calculated the ratio of chronic to non-chronic averages.  
 - This ratio became the **Chronic Cost Premium**, a KPI expressing how much higher the OOP cost is for chronic patients.
 
+
+## 🧩 About the “Condition Burden Ratio” 
+This KPI informs how much higher out of pocket are for chronic patients relative to non-chronic patients (creating a percent difference). 
+
+![Condition Burden Ratio (SQL Query)](https://github.com/user-attachments/assets/cff6888a-3131-444c-a4d8-2d8d226686d4)
+
+
 ---
 
 ## Repository Contents
