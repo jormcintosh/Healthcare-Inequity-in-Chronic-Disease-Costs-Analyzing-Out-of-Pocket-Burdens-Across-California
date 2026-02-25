@@ -10,7 +10,7 @@ This project analyzes statewide healthcare payment data using SQL to identify co
 ## 🎯 Objectives
 - Measure how OOP costs differ between chronic and non-chronic patients.
 - Identify counties with the **highest financial burden** and **widest cost gaps**.
-- Find out how patients typically par per encounter (utilized condition burgen ratio).
+- Find out how patients typically pay per encounter (utilized condition burden ratio).
 - Provide **data-driven recommendations** for policy and cost-relief strategies.
 
   
@@ -46,6 +46,8 @@ This analysis helps:
 | **Cost Inequality Index** | Difference between the 75th and 25th percentile OOP costs. | Measures cost spread and affordability gaps. |
 | **Median Claim Count** | Median number of healthcare claims per member. | Reflects healthcare utilization and access. |
 | **Chronic Cost Premium** | Ratio of OOP costs for chronic vs. non-chronic populations. | Quantifies how much more chronic care patients pay. |
+| **Condition Burden Ratio** | Ratio of median out of pocket cost per member vs. claim count per member. | Quantifies how patients generally pay per encounter. |
+| **Relative Out-of-Pocket Comparison between Groups** | Percent difference in out-of-pocket costs between groups. | Quantifies how much more chronic patients pay in out of pocket costs vs. no chronic | (maybe)
 | **Top 5 Costly Chronic Conditions** | Conditions with highest average OOP costs and patient counts. | Pinpoints high-cost, high-impact conditions. |
 
 ---
