@@ -19,6 +19,8 @@ SELECT SUM(count)
 FROM hpd_oop_chronic_2022_masked
 WHERE chronic_flag = 'All';
 
+Result = 	539982344
+
 -- calculate median oop cost by county and denote alias --
 SELECT county, ROUND(avg(med_oop_member), 2) AS median_oop_cost
 FROM hpd_oop_chronic_2022_masked
