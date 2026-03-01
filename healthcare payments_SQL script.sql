@@ -32,6 +32,16 @@ Result:
   '257037762', 'With chronic condition'
   '267062160', 'No chronic condition'
 
+  --calculate median out of pocket cost for chronic flag subgroup
+**check this**
+SELECT SUM(med_oop_member), chronic_flag
+FROM hpd_oop_chronic_2022_masked
+GROUP BY chronic_flag
+
+  Result: 
+399,326	With chronic condition
+ 66,959	No chronic condition
+
 -- calculate median oop cost by county and denote alias --
 SELECT county, ROUND(avg(med_oop_member), 2) AS median_oop_cost
 FROM hpd_oop_chronic_2022_masked
