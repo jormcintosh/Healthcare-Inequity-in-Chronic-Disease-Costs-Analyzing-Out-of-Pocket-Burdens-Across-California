@@ -21,6 +21,17 @@ WHERE chronic_flag = 'All';
 
 Result = 	539982344
 
+-- calculate total annual member count by chronic flag subgroup --
+
+SELECT SUM(count), chronic_flag
+FROM hpd_oop_chronic_2022_masked
+GROUP BY chronic_flag;
+
+Result:
+  
+  '257037762', 'With chronic condition'
+  '267062160', 'No chronic condition'
+
 -- calculate median oop cost by county and denote alias --
 SELECT county, ROUND(avg(med_oop_member), 2) AS median_oop_cost
 FROM hpd_oop_chronic_2022_masked
