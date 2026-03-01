@@ -18,6 +18,8 @@ This project analyzes statewide healthcare payment data using SQL to identify co
 - Patients in Alpine, CA pay 221% higher out-of-pocket costs relative to the state average.
 - 
 - Members with one or more chronic conditions incur 86% higher median out-of-pocket-cost compared to members without chronic conditions.
+- The approxomite median out of pocket costs per claim for patients with a chronic condition = $21.60
+- The approxomite median out of pocket costs per claim for patients without a chronic condition = $13.00
 ---
 
 ## Power BI Visuals
