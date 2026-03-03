@@ -133,6 +133,8 @@ This analysis helps:
 
 ---
 
+## About the Weighted Median Out-Of-Pocket Costs Query
+
 ## 🧩 About the “Chronic Cost Premium” Query
 To calculate how much more chronic care patients pay than non-chronic patients:
 - Two temporary tables (using CTEs) were created -- one filtered for chronic patients and another for non-chronic.  
