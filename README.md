@@ -59,12 +59,13 @@ This analysis helps:
 |------|--------------|----------|
 | **Median Out-of-Pocket Cost per Member** | Typical cost per patient per county. | Identifies areas with the highest financial pressure. |
 | **Weighted Median Out of Pocket Cost** | Weighted out of pocket cost bychronic subgroup |
+| **Chronic Prevalence** | The percent of members in a population who have one chronic condition | Measures financial strain |
 | **Cost Inequality Index** | Difference between the 75th and 25th percentile OOP costs. | Measures cost spread and affordability gaps. |
 | **Median Claim Count** | Median number of healthcare claims per member. | Reflects healthcare utilization and access. |
 | **Chronic Cost Premium** | Ratio of OOP costs for chronic vs. non-chronic populations. | Quantifies how much more chronic care patients pay. |
 | **Condition Burden Ratio** | Ratio of median out of pocket cost per member vs. claim count per member. | Quantifies how patients generally pay per encounter. |
 | **Relative Out-of-Pocket Comparison between Groups** | Percent difference in out-of-pocket costs between groups. | Quantifies how much more chronic patients pay in out of pocket costs vs. no chronic | (maybe)
-| **Top 5 Costly Chronic Conditions** | Conditions with highest average OOP costs and patient counts. | Pinpoints high-cost, high-impact conditions. |
+| **Top 5 Costly Chronic Conditions** | Conditions with the highest average OOP costs and patient counts. | Pinpoints high-cost, high-impact conditions. |
 
 ---
 
