@@ -16,9 +16,9 @@ This project analyzes statewide healthcare payment data using SQL to identify co
 ## Main Insights
 Insight 1: Chronic Cost Disparity (Statewide 2022)
 
-Chronic members: $37 dollars weighted median out of pocket cost
-Non-chronic members: $.14 cents in weighted median out of pocket costs
-Difference: Z%
+-Chronic members pay **$43 dollars ** weighted median out of pocket cost
+-Non-chronic members pay **25 cents** in weighted median out of pocket costs
+-Chronic memebrs pay **17,100** percent more in weighted median out-of-pocket compared to the non-chronic members
 
 Insight 2: County Variation
 Highest chronic OOP county: 
