@@ -88,7 +88,8 @@ This analysis helps:
 4. **Inequity Measurement**  
    - Computed **Cost Inequality Index** (difference between 75th and 25th percentile OOP costs).  
    - Ranked counties with the highest inequality levels.
-   - Created a condition-burden ratio (showcasing out of pocket costs vs. claims)
+   - Created a condition-burden ratio (showcasing out of pocket costs vs. claims).
+   - Computed weighted statewide comparison for each chronic subgroup.
 
 5. **Condition-Level Insights**  
    - Identified top 5 chronic conditions by average OOP cost and total patient count.  
