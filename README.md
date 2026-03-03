@@ -13,6 +13,19 @@ This project analyzes statewide healthcare payment data using SQL to identify co
 - Find out how patients typically pay per encounter (utilized condition burden ratio).
 - Provide **data-driven recommendations** for policy and cost-relief strategies.
 
+## Main Insights
+Insight 1: Chronic Cost Disparity (Statewide 2022)
+
+Chronic members: $37 dollars weighted median out of pocket cost
+Non-chronic members: $.14 cents in weighted median out of pocket costs
+Difference: Z%
+
+Insight 2: County Variation
+Highest chronic OOP county: 
+Lowest: 
+
+Insight 3: Utilization Impact
+
   
 ## Key Findings
 - Patients in Alpine, CA pay 221% higher out-of-pocket costs relative to the state average.
