@@ -21,8 +21,9 @@ Insight 1: Chronic Cost Disparity (Statewide 2022)
 -Chronic memebrs pay **17,100** percent more in weighted median out-of-pocket compared to the non-chronic members
 
 Insight 2: County Variation
-Highest chronic out of pocket county is Mono with $435 median out of pocket cost.
-Lowest chronic out of pocket county is Madera with $5 median out of pocket cost.
+
+The highest chronic out-of-pocket county in the state of California is Mono ($435 median out of pocket cost). 
+Respectively, the lowest chronic out-of-pocket county is Madera with ($5 median out-pocket-cost). There is a $430 cost gap on average.
 
 Insight 3: Utilization Impact
 
