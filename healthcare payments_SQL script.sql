@@ -118,7 +118,17 @@ WHERE product = 'All'
 GROUP BY county
 ORDER BY median_oop_cost DESC;
 
+-- calculate median claim count by chronic subgroup --
 
+SELECT chronic_flag, med_claim_ct
+FROM hpd_oop_chronic_2022_masked
+WHERE product = 'All'
+AND county = 'All'
+AND chronic_flag IN ('With chronic condition', 'No chronic condition');
+
+Result:
+'No chronic condition', 4
+'With chronic condition', 14
 
 
 
