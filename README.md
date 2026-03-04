@@ -26,6 +26,8 @@ Lowest chronic out of pocket county is Madera with $5 median out of pocket cost.
 
 Insight 3: Utilization Impact
 
+Members with chronic conditions demonstrate significantly higher healthcare utilization. In 2022, the median chronic member filed **14** claims annually compared to **4** for non-chronic members -- a **250%** increase. This elevated utilization likely contributes to the observed disparity in out-of-pocket financial burden.
+
   
 ## Key Findings
 - Patients in Alpine, CA pay 221% higher out-of-pocket costs relative to the state average.
