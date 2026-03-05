@@ -31,11 +31,14 @@ Members with chronic conditions demonstrate significantly higher healthcare util
 
   
 ## Key Findings
+
 - Patients in Alpine, CA pay 221% higher out-of-pocket costs relative to the state average.
 - 
 - Members with one or more chronic conditions incur 86% higher median out-of-pocket-cost compared to members without chronic conditions.
 - The approxomite median out of pocket costs per claim for patients with a chronic condition = $21.60
 - The approxomite median out of pocket costs per claim for patients without a chronic condition = $13.00
+- The Top 5 Counties with the Highest Chronic Prevalence
+  
 ---
 
 ## Power BI Visuals
@@ -138,11 +141,12 @@ This analysis helps:
 
 ## More about the Chronic Prevalence KPI
 
-After calculating the annual member count for each chronic subgroup, I then calculated Chronic Prevalence by using the respective member counts using the formula below that derives the population share of members statewide who have a chronic condition.
+After calculating the annual member count for each chronic subgroup, I then calculated **Chronic Prevalence** by using the respective member counts using the formula below that derives the population share of members statewide who have a chronic condition.
 
 <img width="457" height="80" alt="image" src="https://github.com/user-attachments/assets/d7e43e2f-bf07-4ed1-8d07-715fd238732c" />
 
-In 2022, approximately **47% ** of insured members statewide had at least one chronic condition, indicating that nearly half of the covered population requires ongoing medical management. 
+In 2022, approximately **47%** of insured members statewide had at least one chronic condition, indicating that nearly half of the covered population requires ongoing medical management. 
+
 
 ## About the Weighted Median Out-Of-Pocket Costs Query
 
