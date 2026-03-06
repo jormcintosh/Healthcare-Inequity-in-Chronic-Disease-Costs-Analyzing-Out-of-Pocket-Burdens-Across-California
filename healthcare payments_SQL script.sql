@@ -118,6 +118,12 @@ WHERE product = 'All'
 GROUP BY county
 ORDER BY median_oop_cost DESC;
 
+-- calculate statewide total median out of pocket costs --
+SELECT sum(med_oop_member), chronic_flag
+FROM hpd_oop_chronic_2022_masked
+WHERE product = 'All' AND chronic_flag <> 'All' AND county <> 'All'
+GROUP BY chronic_flag;
+
 -- calculate median claim count by chronic subgroup --
 
 SELECT chronic_flag, med_claim_ct
