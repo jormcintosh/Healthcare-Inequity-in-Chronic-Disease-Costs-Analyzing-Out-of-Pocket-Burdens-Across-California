@@ -26,6 +26,8 @@ Insight 2: County Variation
 The highest chronic out-of-pocket county in the state of California is Mono ($435 median out-of-pocket cost). 
 Respectively, the lowest chronic out-of-pocket county is Madera with ($5 median out-pocket-cost). There is a $430 cost gap statewide.
 
+Note: some counties did not incur any chronic out-of pocket cost and were not considered in the calculation of this range.
+
 Insight 3: Utilization Impact
 
 Members with chronic conditions demonstrate significantly higher healthcare utilization. In 2022, the median chronic member filed **14** claims annually compared to **4** for non-chronic members -- a **250%** increase. This elevated utilization likely contributes to the observed disparity in out-of-pocket financial burden.
