@@ -37,7 +37,8 @@ Members with chronic conditions demonstrate significantly higher healthcare util
 - Members with one or more chronic conditions incur 86% higher median out-of-pocket-cost compared to members without chronic conditions.
 - The approxomite median out of pocket costs per claim for patients with a chronic condition = $21.60
 - The approxomite median out of pocket costs per claim for patients without a chronic condition = $13.00
-- The Top 5 Counties with the Highest Chronic Prevalence
+- The Top 5 counties with the Highest Chronic Prevalence include: Tuolumne (64%), Calaveras (61%), Sierra (60%), Mariposa (60%), Plumas (59%). 
+
   
 ---
 
@@ -146,7 +147,6 @@ After calculating the annual member count for each chronic subgroup, I then calc
 <img width="457" height="80" alt="image" src="https://github.com/user-attachments/assets/d7e43e2f-bf07-4ed1-8d07-715fd238732c" />
 
 In 2022, approximately **47%** of insured members statewide had at least one chronic condition, indicating that nearly half of the covered population requires ongoing medical management. 
-
 
 ## About the Weighted Median Out-Of-Pocket Costs Query
 
