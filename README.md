@@ -14,6 +14,7 @@ This project analyzes statewide healthcare payment data using SQL to identify co
 - Provide **data-driven recommendations** for policy and cost-relief strategies.
 
 ## Main Insights
+
 Insight 1: Chronic Cost Disparity (Statewide 2022)
 
 - Chronic members pay **43 dollars** weighted median out-of-pocket cost
