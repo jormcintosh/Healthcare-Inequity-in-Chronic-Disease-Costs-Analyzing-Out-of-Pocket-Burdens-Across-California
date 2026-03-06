@@ -64,7 +64,7 @@ This analysis helps:
 | KPI | Description | Purpose |
 |------|--------------|----------|
 | **Median Out-of-Pocket Cost per Member** | Typical cost per patient per county. | Identifies areas with the highest financial pressure. |
-| **Weighted Median Out of Pocket Cost** | Weighted out of pocket cost by chronic subgroup |
+| **Weighted Median Out of Pocket Cost** | Weighted out of pocket cost by chronic subgroup | Identifies median cost for chronic v non chronic memebers |
 | **Chronic Prevalence** | The percent of members in a population who have one chronic condition | Measures long-term health burdens across regions |
 | **Cost Inequality Index** | Difference between the 75th and 25th percentile OOP costs. | Measures cost spread and affordability gaps. |
 | **Median Claim Count** | Median number of healthcare claims per member. | Reflects healthcare utilization and access. |
