@@ -16,13 +16,13 @@ This project analyzes statewide healthcare payment data using SQL to identify co
 ## Main Insights
 Insight 1: Chronic Cost Disparity (Statewide 2022)
 
--Chronic members pay **43 dollars** weighted median out of pocket cost
--Non-chronic members pay **25 cents** in weighted median out of pocket costs
--Chronic memebrs pay **17,100** percent more in weighted median out-of-pocket compared to the non-chronic members
+- Chronic members pay **43 dollars** weighted median out-of-pocket cost
+- Non-chronic members pay **25 cents** in weighted median out-of-pocket costs
+- Chronic memebrs pay **17,100** percent more in weighted median out-of-pocket compared to the non-chronic members
 
 Insight 2: County Variation
 
-The highest chronic out-of-pocket county in the state of California is Mono ($435 median out of pocket cost). 
+The highest chronic out-of-pocket county in the state of California is Mono ($435 median out-of-pocket cost). 
 Respectively, the lowest chronic out-of-pocket county is Madera with ($5 median out-pocket-cost). There is a $430 cost gap statewide.
 
 Insight 3: Utilization Impact
