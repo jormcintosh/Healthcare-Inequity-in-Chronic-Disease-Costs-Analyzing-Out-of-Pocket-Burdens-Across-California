@@ -93,9 +93,7 @@ This analysis helps:
 ## 🧮 Tools & Skills
 - **SQL (MySQL / PostgreSQL):** Data cleaning, aggregation, and KPI computation.  
 - **Power BI:** Data visualization and storytelling.  
-- **Data Storytelling:** Translating metrics into insights for decision-making.  
-- **Analytical Thinking:** Comparing populations and assessing equity through KPIs.
-
+ Comparing populations and assessing equity through KPIs.
 ---
 
 ## 📈 Analysis Process
@@ -140,7 +138,7 @@ This analysis helps:
 
 ---
 
-## 🧾 Recommendations
+## 🧾 So What? My recommendations going forward:
 - Prioritize financial support or subsidy programs in high-burden counties.  
 - Encourage insurers to reassess coverage for chronic care services.  
 - Expand preventative health programs to reduce long-term OOP spending.  
