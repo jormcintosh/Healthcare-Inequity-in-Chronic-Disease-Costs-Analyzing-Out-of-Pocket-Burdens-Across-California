@@ -1,6 +1,10 @@
-# Healthcare Inequity in Chronic Disease Costs: Analyzing Out-of-Pocket Burdens Across California
+# Analyzing Financial Burden of Chronic Disease in California Healthcare
 
 ## 📘 Project Overview
+
+Chronic diseases represent a major driver of healthcare spending in the United States. However, the financial burden placed on patients varies widely depending on insurance coverage and the type of condition.
+
+This project analyzes California healthcare payments data to examine how out-of-pocket costs differ across chronic disease categories and payer types, helping identify where financial inequities occur.
 
 Chronic disease patients in California face significantly different out-of-pocket (OOP) costs depending on region and income level.
 This project analyzes statewide healthcare payment data using SQL to identify cost disparities, quantify financial burden, and surface opportunities for policy or pricing intervention.
@@ -10,7 +14,7 @@ This project analyzes statewide healthcare payment data using SQL to identify co
 ## 🎯 Objectives
 - Measure how OOP costs differ between chronic and non-chronic patients.
 - Identify counties with the **highest financial burden** and **widest cost gaps**.
-- Find out how patients typically pay per encounter (utilized condition burden ratio).
+- Find out how patients typically pay per encounter (calculated condition burden ratio).
 - Provide **data-driven recommendations** for policy and cost-relief strategies.
 
 ## Main Insights
@@ -21,12 +25,11 @@ Insight 1: Chronic Cost Disparity (Statewide 2022)
 - Non-chronic members pay **25 cents** in weighted median out-of-pocket costs
 - Chronic memebrs pay **17,100 dollars** percent more in weighted median out-of-pocket compared to the non-chronic members
 
+- Patients with chronic diseases face substantially higher out-of-pocket costs compared to those without chronic conditions.
+
 Insight 2: County Variation
 
-The highest chronic out-of-pocket county in the state of California is Mono ($435 median out-of-pocket cost). 
-Respectively, the lowest chronic out-of-pocket county is Madera with ($5 median out-pocket-cost). There is a $430 cost gap statewide.
-
-Note: some counties did not incur any chronic out-of-pocket costs and were not considered in the calculation of this range.
+Out-of-pocket costs for chronic conditions differ sharply across California counties, ranging from a median of **$5** in Madera County to **$435** in Mono County -- a **$430** disparity that underscores how the financial burden of chronic disease can depend heavily on where a patient lives.
 
 Insight 3: Utilization Impact
 
