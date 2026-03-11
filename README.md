@@ -21,9 +21,7 @@ This project analyzes statewide healthcare payment data using SQL to identify co
 
 Insight 1: Chronic Cost Disparity (Statewide 2022)
 
-- Chronic members pay **43 dollars** weighted median out-of-pocket cost
-- Non-chronic members pay **25 cents** in weighted median out-of-pocket costs
-- Chronic memebrs pay **17,100 dollars** percent more in weighted median out-of-pocket compared to the non-chronic members
+Chronic disease is associated with a dramatically higher financial burden: members with chronic conditions pay a weighted median of **$43** out-of-pocket compared to just **$0.25** for non-chronic members—more than 17,000% higher; underscoring the significant cost disparity between these populations.
 
 - Patients with chronic diseases face substantially higher out-of-pocket costs compared to those without chronic conditions.
 
