@@ -33,8 +33,7 @@ Out-of-pocket costs for chronic conditions differ sharply across California coun
 
 Insight 3: Utilization Impact
 
-Members with chronic conditions demonstrate significantly higher healthcare utilization. In 2022, the median chronic member filed **14** claims annually compared to **4** for non-chronic members -- a **250%** increase. This elevated utilization likely contributes to the observed disparity in out-of-pocket financial burden.
-
+Healthcare utilization is substantially higher among members with chronic conditions: in 2022, the median chronic member filed 14 claims annually compared to just 4 for non-chronic members—a 250% increase—suggesting that more frequent healthcare interactions are a key driver of the higher out-of-pocket costs observed among this population
   
 ## Key Findings
 
