@@ -147,7 +147,7 @@ This analysis helps:
 
 ## More about the Chronic Prevalence KPI
 
-After calculating the annual member count for each chronic subgroup, I then calculated **Chronic Prevalence** by using the respective member counts using the formula below that derives the population share of members statewide who have a chronic condition.
+After calculating the annual member count for each chronic subgroup, I then calculated **Chronic Prevalence** by using the respective member counts inside the formula below that derives the population share of members statewide who have a chronic condition.
 
 <img width="457" height="80" alt="image" src="https://github.com/user-attachments/assets/d7e43e2f-bf07-4ed1-8d07-715fd238732c" />
 
