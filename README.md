@@ -153,9 +153,14 @@ After calculating the annual member count for each chronic subgroup, I then calc
 
 In 2022, approximately **47%** of insured members statewide had at least one chronic condition, indicating that nearly half of the covered population requires ongoing medical management. 
 
-## About the Weighted Median Out-Of-Pocket Costs Query
+## More about the Weighted Median Out-Of-Pocket Costs Query by Chronic Subgroup
 
-## 🧩 About the “Chronic Cost Premium” Query
+<img width="668" height="493" alt="image" src="https://github.com/user-attachments/assets/12049798-fc04-45e7-a900-9f973a8c424b" />
+
+In 2022, members with chronic conditions pay a weighted median of **$43** out-of-pocket compared to just **$0.25** for non-chronic members.
+
+
+## About the “Chronic Cost Premium” Query
 To calculate how much more chronic care patients pay than non-chronic patients:
 - Two temporary tables (using CTEs) were created -- one filtered for chronic patients and another for non-chronic.  
 - Each summarized average median OOP cost by county.  
