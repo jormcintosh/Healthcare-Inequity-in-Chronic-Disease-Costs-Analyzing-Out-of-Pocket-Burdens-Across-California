@@ -155,6 +155,7 @@ In 2022, approximately **47%** of insured members statewide had at least one chr
 
 ## More about the Weighted Median Out-Of-Pocket Costs Query by Chronic Subgroup
 
+![Weighted median oop cost 1 (SQL Query)](https://github.com/user-attachments/assets/605b0c41-e5e2-476a-bbf1-9a0937d77a84)
 
 
 In 2022, members with chronic conditions paid a weighted median of **$43** out-of-pocket compared to just **$0.25** for non-chronic members.
@@ -173,7 +174,7 @@ To calculate how much more chronic care patients pay than non-chronic patients:
 
 
 ## 🧩 About the “Condition Burden Ratio” 
-This KPI informs how much higher out of pocket are for chronic patients relative to non-chronic patients (creating a percent difference). 
+This KPI informs how much higher out-of-pocket costs are for chronic patients relative to non-chronic patients (creating a percent difference). 
 
 ![Condition Burden Ratio (SQL Query)](https://github.com/user-attachments/assets/cff6888a-3131-444c-a4d8-2d8d226686d4)
 
