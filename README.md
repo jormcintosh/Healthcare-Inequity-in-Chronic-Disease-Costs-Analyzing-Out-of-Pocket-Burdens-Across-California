@@ -32,7 +32,7 @@ Healthcare utilization is substantially higher among members with chronic condit
   
 ## Key Findings
 
-- High-severity conditions such as cardiovascular events (i.e Acute Myocardial [279,614],Infarction Atrial Fibrillation [235,552], Stroke [122,814]) show **disproportionately high patient costs**
+- High-severity conditions such as cardiovascular events (i.e Acute Myocardial [279,614], Infarction Atrial Fibrillation [235,552], Stroke [122,814]) show **disproportionately high patient costs**
 - Mental health conditions (i.e. Depression [12,083] and Anxiety [11,043] show the **low patient costs**. Treatments may rely more heavily on outpatient therapy and medication.
 
 - Patients in Alpine, CA pay 221% higher out-of-pocket costs relative to the state average.
@@ -77,8 +77,8 @@ This analysis helps:
 | **Cost Inequality Index** | Difference between the 75th and 25th percentile OOP costs. | Measures cost spread and affordability gaps. |
 | **Median Claim Count** | Median number of healthcare claims per member. | Reflects healthcare utilization and access. |
 | **Chronic Cost Premium** | Ratio of OOP costs for chronic vs. non-chronic populations. | Quantifies how much more chronic care patients pay. |
-| **Condition Burden Ratio** | Ratio of median out of pocket cost per member vs. claim count per member. | Quantifies how patients generally pay per encounter. |
-| **Relative Out-of-Pocket Comparison between Groups** | Percent difference in out-of-pocket costs between groups. | Quantifies how much more chronic patients pay in out of pocket costs vs. no chronic | (maybe)
+| **Condition Burden Ratio** | Ratio of median out-of-pocket cost per member vs. claim count per member. | Quantifies how patients generally pay per encounter. |
+| **Relative Out-of-Pocket Comparison between Groups** | Percent difference in out-of-pocket costs between groups. | Quantifies how much more chronic patients pay in out-of-pocket costs vs. no chronic | (maybe)
 | **Top 5 Costly Chronic Conditions** | Conditions with the highest average OOP costs and patient counts. | Pinpoints high-cost, high-impact conditions. |
 
 ---
@@ -114,7 +114,7 @@ This analysis helps:
 4. **Inequity Measurement**  
    - Computed **Cost Inequality Index** (difference between 75th and 25th percentile OOP costs).  
    - Ranked counties with the highest inequality levels.
-   - Created a condition-burden ratio (showcasing out of pocket costs vs. claims).
+   - Created a condition-burden ratio (showcasing out-of-pocket costs vs. claims).
    - Computed weighted statewide comparison by chronic condition.
 
 5. **Condition-Level Insights**  
@@ -127,7 +127,7 @@ This analysis helps:
      - Cost inequality index (bar chart)
      - Chronic vs non-chronic comparison (side-by-side bars)
      - KPI cards for statewide averages
-     - Table of top 5 costly chronic conditions
+     - Table of Top 5 costly chronic conditions
 
 ---
 
@@ -155,9 +155,9 @@ In 2022, approximately **47%** of insured members statewide had at least one chr
 
 ## More about the Weighted Median Out-Of-Pocket Costs Query by Chronic Subgroup
 
-<img width="668" height="493" alt="image" src="https://github.com/user-attachments/assets/12049798-fc04-45e7-a900-9f973a8c424b" />
 
-In 2022, members with chronic conditions pay a weighted median of **$43** out-of-pocket compared to just **$0.25** for non-chronic members.
+
+In 2022, members with chronic conditions paid a weighted median of **$43** out-of-pocket compared to just **$0.25** for non-chronic members.
 
 
 ## About the “Chronic Cost Premium” Query
