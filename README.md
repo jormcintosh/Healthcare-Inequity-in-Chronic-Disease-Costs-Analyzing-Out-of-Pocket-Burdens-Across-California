@@ -8,7 +8,7 @@ This project analyzes California healthcare payments data to examine how out-of-
 
 ---
 
-## 🎯 Objectives
+## Objectives
 - Measure how OOP costs differ between chronic and non-chronic patients.
 - Identify counties with the **highest financial burden** and **widest cost gaps**.
 - Find out how patients typically pay per encounter (calculated condition burden ratio).
