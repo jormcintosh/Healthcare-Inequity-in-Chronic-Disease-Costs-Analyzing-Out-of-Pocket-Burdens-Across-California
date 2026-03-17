@@ -42,7 +42,7 @@ GROUP BY chronic_flag
 399,326	With chronic condition
  66,959	No chronic condition
 
--- weighted median out of pocket cost by chronic sub group --
+-- weighted median out=of-pocket cost by chronic sub-group --
 SELECT
     SUM(CASE WHEN chronic_flag = 'With chronic condition'
              THEN med_oop_member * count END)
@@ -59,7 +59,7 @@ SELECT
     AS non_chronic_weighted_oop
 
 FROM hpd_oop_chronic_2022_masked
-WHERE product = 'All'
+WHERE product = 'All' AND county <> 'All'
   AND chronic_flag IN ('With chronic condition', 'No chronic condition');
 
 
