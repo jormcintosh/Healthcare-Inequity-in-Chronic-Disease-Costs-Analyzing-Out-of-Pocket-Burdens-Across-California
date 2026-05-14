@@ -1,6 +1,6 @@
 # Analyzing Financial Burden of Chronic Disease in California Healthcare
 
-## 📘 Project Overview
+## Project Overview
 
 Chronic diseases represent a major driver of healthcare spending in the United States. However, the financial burden placed on patients varies widely depending on insurance coverage and the type of condition.
 
@@ -8,7 +8,7 @@ This project analyzes California healthcare payments data to examine how out-of-
 
 ---
 
-## 🧮 Tools & Skills
+## Tools & Skills
 - **SQL (MySQL / PostgreSQL):** Data cleaning, aggregation, and KPI computation.  
 - **Power BI:** Data visualization and storytelling.  
  Comparing populations and assessing equity through KPIs.
@@ -18,7 +18,7 @@ This project analyzes California healthcare payments data to examine how out-of-
 ## Objectives
 - Measure how OOP costs differ between chronic and non-chronic patients.
 - Identify counties with the **highest financial burden** and **widest cost gaps**.
-- Find out how patients typically pay per encounter (calculated condition burden ratio).
+- Find out how patients typically pay per encounter (calculate condition burden ratio).
 - Provide **data-driven recommendations** for policy and cost-relief strategies.
 
 ## Main Insights
@@ -43,7 +43,7 @@ Healthcare utilization is substantially higher among members with chronic condit
 - Mental health conditions (i.e. Depression [12,083] and Anxiety [11,043] show the **low patient costs**. Treatments may rely more heavily on outpatient therapy and medication.
 
 - Patients in Alpine, CA pay 221% higher out-of-pocket costs relative to the state average.
-- Chronic and non-chronic members paid a combined total of $35,140 in statewide Median out-of-pocket costs.
+- Chronic and non-chronic members paid a combined total of $35,140 in statewide median out-of-pocket costs.
 - **Mono County** ranked the highest in total median out-of-pocket costs across members totaling $1,940.
 - **Madera County** ranked the lowest in total median out-of-pocket costs across members totaling $20.
 
@@ -65,7 +65,7 @@ Average Patient Out-of-Pocket Costs by County
 <img width="1242" height="730" alt="image" src="https://github.com/user-attachments/assets/a491e43c-4ad9-4100-baca-89029eb7ed88" />
 
 
-## 💡 Business Context
+## Business Context
 High OOP costs can limit access to essential care and worsen health inequities.  
 This analysis helps:
 - **Policy makers** design targeted affordability programs.  
@@ -79,7 +79,7 @@ This analysis helps:
 | KPI | Description | Purpose |
 |------|--------------|----------|
 | **Median Out-of-Pocket Cost per Member** | Typical cost per patient per county. | Identifies areas with the highest financial pressure. |
-| **Weighted Median Out of Pocket Cost** | Weighted out of pocket cost by chronic subgroup | Identifies median cost for chronic v non chronic memebers |
+| **Weighted Median Out of Pocket Cost** | Weighted Out-of-Pocket Cost by Chronic Subgroup | Identifies median cost for chronic v non chronic members |
 | **Chronic Prevalence** | The percent of members in a population who have one chronic condition | Measures long-term health burdens across regions |
 | **Cost Inequality Index** | Difference between the 75th and 25th percentile OOP costs. | Measures cost spread and affordability gaps. |
 | **Median Claim Count** | Median number of healthcare claims per member. | Reflects healthcare utilization and access. |
@@ -90,14 +90,14 @@ This analysis helps:
 
 ---
 
-## 🧠 Data Source
+## Data Source
 **Dataset:** [California CHHS – HPD Medical Out-of-Pocket Costs and Chronic Conditions (2022)](https://data.chhs.ca.gov/dataset/healthcare-payments-data-hpd-medical-out-of-pocket-costs-and-chronic-conditions/resource/e7794d13-4134-4230-b2d5-8698d438fd34)  
 **File Used:** `hpd_oop_chronic_2022_masked.xlsx`  
 **Columns:** County, Product Type, Chronic Flag, Chronic Condition, Median OOP Cost, 25th/75th Percentile OOP, Median Claim Count, etc.
 
 ---
 
-## 📈 Analysis Process
+## Analysis Process
 
 1. **Data Preparation**  
    - Imported dataset into SQL and verified data quality.  
@@ -132,7 +132,7 @@ This analysis helps:
 
 ---
 
-## 💬 Key Insights
+## Key Insights
 - Chronic care patients pay **2–3× higher** median OOP costs than non-chronic patients.  
 - Certain Northern California counties show both **higher median costs** and **greater inequality**, signaling affordability issues.  
 - **Diabetes, heart disease, and kidney disorders** are among the costliest chronic conditions statewide.  
@@ -165,7 +165,7 @@ To calculate how much more chronic care patients pay than non-chronic patients:
 ![Chronic Cost Premium (SQL Query)](https://github.com/user-attachments/assets/47642fdc-0310-4ab7-bba3-8d36128e7400)
 
 
-## 🧩 About the “Condition Burden Ratio” 
+## About the “Condition Burden Ratio” 
 This KPI informs how much higher out-of-pocket costs are for chronic patients relative to non-chronic patients (creating a percent difference). 
 
 ![Condition Burden Ratio (SQL Query)](https://github.com/user-attachments/assets/cff6888a-3131-444c-a4d8-2d8d226686d4)
@@ -173,7 +173,7 @@ This KPI informs how much higher out-of-pocket costs are for chronic patients re
 
 ---
 
-## 🧾 So What? Strategic recommendations going forward:
+## So What? Strategic recommendations going forward:
 
 **1. Launch Targeted Financial Assistance Programs in High-Burden Counties**
 Mono County ($435 median chronic OOP) and Alpine County (221% above the state average) represent acute affordability crises that statewide policies alone won't resolve. Policymakers should establish county-specific cost-relief programs — such as OOP cost caps, subsidized co-pay assistance, or expanded Medi-Cal eligibility thresholds — prioritized by the Cost Inequality Index and Chronic Cost Premium KPIs identified in this analysis. Geographic targeting ensures limited resources reach the populations facing the steepest financial walls.
