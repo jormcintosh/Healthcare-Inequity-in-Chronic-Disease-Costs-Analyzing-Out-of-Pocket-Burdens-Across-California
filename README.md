@@ -43,9 +43,9 @@ By contrast, mental health conditions such as Depression (12,083 patients) and A
 **Chronic Prevalence by County**
 Nearly half — approximately 47% — of insured California members had at least one chronic condition in 2022. The five counties with the highest chronic prevalence are:
 
-<img width="293" height="128" alt="Key Findings (Chronics Prev by County)" src="https://github.com/user-attachments/assets/a042744d-daae-4e01-9605-e7e13e82d558" />
+<img width="294" height="124" alt="Key Findings (Chronic Prev by County)" src="https://github.com/user-attachments/assets/ef7622ab-67fa-4b7e-9480-8ed447ec8489" />
 
- 
+
 ---
 
 ## Power BI Visuals
