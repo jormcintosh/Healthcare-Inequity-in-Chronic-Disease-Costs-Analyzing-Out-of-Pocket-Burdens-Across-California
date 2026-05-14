@@ -21,39 +21,30 @@ This project analyzes California healthcare payments data to examine how out-of-
 - Find out how patients typically pay per encounter (calculate condition burden ratio).
 - Provide **data-driven recommendations** for policy and cost-relief strategies.
 
-## Main Insights
+## Key Findings and Insights
+---
+**Cost Disparity**
+Members with chronic conditions face a dramatically higher financial burden statewide. In 2022, chronic members paid a weighted median of $43 out-of-pocket compared to just $0.25 for non-chronic members — a difference of more than 17,000%. Overall, members with one or more chronic conditions incur 86% higher median OOP costs than their non-chronic counterparts, with a combined statewide median of $35,140 across both groups.
 
-Insight 1: Chronic Cost Disparity (Statewide 2022)
+**Geographic Variation**
+OOP costs for chronic conditions vary sharply across California counties, ranging from a median of $5 in Madera County to $435 in Mono County — a $430 gap that underscores how financial burden depends heavily on where a patient lives. Patients in Alpine County pay 221% above the state average, while Mono County ranks highest in total median OOP costs across all members at $1,940. Madera County ranks lowest at $20.
 
-Chronic disease is associated with a dramatically higher financial burden: members with chronic conditions pay a weighted median of **$43** out-of-pocket compared to just **$0.25** for non-chronic members—more than 17,000% higher; underscoring the significant cost disparity between these populations.
+**Utilization & Encounter Costs**
+Healthcare utilization is substantially higher among chronic members. In 2022, the median chronic member filed 14 claims annually compared to just 4 for non-chronic members — a 250% increase. This higher frequency directly compounds OOP spending: chronic patients pay approximately $21.60 per claim versus $13.00 for non-chronic patients, meaning the burden accumulates both in visit volume and cost per encounter.
 
-- Patients with chronic diseases face substantially higher out-of-pocket costs compared to those without chronic conditions.
+**High-Cost Conditions**
+Cardiovascular conditions carry the highest patient costs statewide. The most prevalent high-severity diagnoses include:
 
-Insight 2: County Variation
+(insert chart here)
 
-Out-of-pocket costs for chronic conditions differ sharply across California counties, ranging from a median of **$5** in Madera County to **$435** in Mono County -- a **$430** disparity that underscores how the financial burden of chronic disease can depend heavily on where a patient lives.
 
-Insight 3: Utilization Impact
+By contrast, mental health conditions such as Depression (12,083 patients) and Anxiety (11,043 patients) show the lowest OOP costs, likely because treatment relies more heavily on outpatient therapy and medication rather than high-cost acute interventions.
 
-Healthcare utilization is substantially higher among members with chronic conditions: in 2022, the median chronic member filed **14** claims annually compared to just **4** for non-chronic members--a 250% increase--suggesting that more frequent healthcare interactions are a key driver of the higher out-of-pocket costs observed among this population
-  
-## Key Findings
+**Chronic Prevalence by County**
+Nearly half — approximately 47% — of insured California members had at least one chronic condition in 2022. The five counties with the highest chronic prevalence are:
 
-- High-severity conditions such as cardiovascular events (i.e Acute Myocardial [279,614], Infarction Atrial Fibrillation [235,552], Stroke [122,814]) show **disproportionately high patient costs**
-- Mental health conditions (i.e. Depression [12,083] and Anxiety [11,043] show the **low patient costs**. Treatments may rely more heavily on outpatient therapy and medication.
-
-- Patients in Alpine, CA pay 221% higher out-of-pocket costs relative to the state average.
-- Chronic and non-chronic members paid a combined total of $35,140 in statewide median out-of-pocket costs.
-- **Mono County** ranked the highest in total median out-of-pocket costs across members totaling $1,940.
-- **Madera County** ranked the lowest in total median out-of-pocket costs across members totaling $20.
-
-- Members with one or more chronic conditions incur 86% higher median out-of-pocket costs compared to members without chronic conditions.
-
-- The approximate median out-of-pocket costs per claim for patients with a chronic condition = $21.60
-- The approximate median out-of-pocket costs per claim for patients without a chronic condition = $13.00
-- The Top 5 counties with the Highest Chronic Prevalence include: Tuolumne (64%), Calaveras (61%), Sierra (60%), Mariposa (60%), Plumas (59%). 
-
-  
+(insert chart here)
+ 
 ---
 
 ## Power BI Visuals
