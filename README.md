@@ -8,6 +8,13 @@ This project analyzes California healthcare payments data to examine how out-of-
 
 ---
 
+## 🧮 Tools & Skills
+- **SQL (MySQL / PostgreSQL):** Data cleaning, aggregation, and KPI computation.  
+- **Power BI:** Data visualization and storytelling.  
+ Comparing populations and assessing equity through KPIs.
+
+---
+
 ## Objectives
 - Measure how OOP costs differ between chronic and non-chronic patients.
 - Identify counties with the **highest financial burden** and **widest cost gaps**.
@@ -67,7 +74,7 @@ This analysis helps:
 
 ---
 
-## 📊 Key Performance Indicators (KPIs)
+## Key Performance Indicators (KPIs)
 
 | KPI | Description | Purpose |
 |------|--------------|----------|
@@ -88,12 +95,6 @@ This analysis helps:
 **File Used:** `hpd_oop_chronic_2022_masked.xlsx`  
 **Columns:** County, Product Type, Chronic Flag, Chronic Condition, Median OOP Cost, 25th/75th Percentile OOP, Median Claim Count, etc.
 
----
-
-## 🧮 Tools & Skills
-- **SQL (MySQL / PostgreSQL):** Data cleaning, aggregation, and KPI computation.  
-- **Power BI:** Data visualization and storytelling.  
- Comparing populations and assessing equity through KPIs.
 ---
 
 ## 📈 Analysis Process
@@ -138,13 +139,6 @@ This analysis helps:
 
 ---
 
-## 🧾 So What? My recommendations going forward:
-- Prioritize financial support or subsidy programs in high-burden counties.  
-- Encourage insurers to reassess coverage for chronic care services.  
-- Expand preventative health programs to reduce long-term OOP spending.  
-
----
-
 ## More about the Chronic Prevalence KPI
 
 After calculating the annual member count for each chronic subgroup, I then calculated **Chronic Prevalence** by using the respective member counts inside the formula below that derives the population share of members statewide who have a chronic condition.
@@ -171,13 +165,30 @@ To calculate how much more chronic care patients pay than non-chronic patients:
 ![Chronic Cost Premium (SQL Query)](https://github.com/user-attachments/assets/47642fdc-0310-4ab7-bba3-8d36128e7400)
 
 
-
-
 ## 🧩 About the “Condition Burden Ratio” 
 This KPI informs how much higher out-of-pocket costs are for chronic patients relative to non-chronic patients (creating a percent difference). 
 
 ![Condition Burden Ratio (SQL Query)](https://github.com/user-attachments/assets/cff6888a-3131-444c-a4d8-2d8d226686d4)
 
+
+---
+
+## 🧾 So What? Strategic recommendations going forward:
+
+**1. Launch Targeted Financial Assistance Programs in High-Burden Counties**
+Mono County ($435 median chronic OOP) and Alpine County (221% above the state average) represent acute affordability crises that statewide policies alone won't resolve. Policymakers should establish county-specific cost-relief programs — such as OOP cost caps, subsidized co-pay assistance, or expanded Medi-Cal eligibility thresholds — prioritized by the Cost Inequality Index and Chronic Cost Premium KPIs identified in this analysis. Geographic targeting ensures limited resources reach the populations facing the steepest financial walls.
+
+**2. Redesign Chronic Care Coverage to Reduce Per-Claim Costs**
+Chronic members file a median of 14 claims annually versus 4 for non-chronic members — a 250% difference in utilization that directly compounds OOP spending. At ~$21.60 per chronic claim versus ~$13.00 for non-chronic claims, the disparity is not only in volume but in cost per encounter. Insurers should explore reducing per-visit cost-sharing for high-frequency chronic conditions (particularly cardiovascular-related conditions like AMI, Atrial Fibrillation, and Stroke) to prevent members from deferring necessary care due to accumulated costs.
+
+**3. Prioritize Prevention for High-Prevalence Rural Counties**
+The top five counties by chronic prevalence — Tuolumne (64%), Calaveras (61%), Sierra (60%), Mariposa (60%), and Plumas (59%) — are predominantly rural, suggesting structural gaps in preventative care access. Healthcare systems and state agencies should direct community health worker programs, mobile health clinics, and chronic disease screening initiatives to these regions. Reducing chronic disease onset in these populations is the most cost-effective long-term lever for lowering statewide OOP burden.
+
+**4. Expand and Protect Mental Health Coverage**
+Depression and Anxiety show the lowest OOP costs among chronic conditions, likely because treatment is concentrated in lower-cost outpatient and medication channels. However, this affordability advantage is fragile — any erosion in mental health parity or outpatient coverage could push patients toward more expensive, acute interventions. Protecting and expanding outpatient mental health benefits serves as both a cost-containment and equity measure.
+
+**5. Establish Ongoing County-Level Equity Monitoring**
+The $430 spread in median chronic OOP costs across California counties (Madera at $5 vs. Mono at $435) illustrates that zip code is a meaningful predictor of financial burden. Policymakers and insurers should adopt the Cost Inequality Index and Chronic Cost Premium as standing dashboard KPIs — refreshed annually using CHHS data — to track whether interventions are narrowing or widening geographic disparities over time.
 
 ---
 
