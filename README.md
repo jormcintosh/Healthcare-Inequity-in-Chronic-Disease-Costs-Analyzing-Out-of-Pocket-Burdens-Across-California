@@ -35,7 +35,7 @@ Healthcare utilization is substantially higher among chronic members. In 2022, t
 **High-Cost Conditions**
 Cardiovascular conditions carry the highest patient costs statewide. The most prevalent high-severity diagnoses include:
 
-(insert chart here)
+<img width="298" height="84" alt="Key Findings (Patient Count by Cardio Condition)" src="https://github.com/user-attachments/assets/396740db-d66a-453a-b115-fa69a1cc2a5c" />
 
 
 By contrast, mental health conditions such as Depression (12,083 patients) and Anxiety (11,043 patients) show the lowest OOP costs, likely because treatment relies more heavily on outpatient therapy and medication rather than high-cost acute interventions.
@@ -43,7 +43,8 @@ By contrast, mental health conditions such as Depression (12,083 patients) and A
 **Chronic Prevalence by County**
 Nearly half — approximately 47% — of insured California members had at least one chronic condition in 2022. The five counties with the highest chronic prevalence are:
 
-(insert chart here)
+<img width="293" height="128" alt="Key Findings (Chronics Prev by County)" src="https://github.com/user-attachments/assets/a042744d-daae-4e01-9605-e7e13e82d558" />
+
  
 ---
 
